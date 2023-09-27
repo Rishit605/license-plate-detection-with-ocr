@@ -1,20 +1,20 @@
 # V-RegX
-V-RegX is a web application that allows users to upload an image/video and get detect the vehicalas well as the number plate of the veicla and using the detections, it analyses the number plate to extract the characters of the number plate. It is an application that allows users to perfom object detection on their image and get the vehical details with just one click and th data is save in a tabular format for users' convience to use the data later.
+V-RegX is a web application that allows users to upload an image/video and detect the vehicles as well as the number plate of the vehicle using the detections, it analyses the number plate to extract the characters of the number plate. It is an application that allows users to perform object detection on their image and get the vehicle details with just one click and the data is saved in a tabular format for users' convenience to use the data later.
 
 ## Features
 
-- **User Registration** Users can upload their image and video using a simple button 
-- **Number Plate Detection** This model can detect vehical as well its number plate. They can customize various settings for the poll, such as allowing multiple selections and setting an expiration date.
+- **User Registration** Users can upload their images and video using a simple button 
+- **Number Plate Detection** This model can detect vehicles and their number plate. They can customize various settings for the poll, such as allowing multiple selections and setting an expiration date.
 - **Saving the detected images** This model saves the detection images locally where users can view the image(s).
-- **OCR** This model alsos performs OCR on the detected numberplate prediting the text o fthe detected number plates.
-- **Save the predictions** Model after the OCR saves the predictions ina a seperate folder in a tabular format in an Excel Sheet for the users.
+- **OCR** This model also performs OCR on the detected numberplate predicting the text of the detected number plates.
+- **Save the predictions** Model after the OCR saves the predictions in a separate folder in a tabular format in an Excel Sheet for the users.
 
 ## Technologies Used
 
 - **Back-end:** Flask Framework
 - **Front-end:** React.js, HTML, CSS, JavaScript
 - **Programming Language** Python, Tkinter
-- **Object Detction** Pytorch, Python, OpenCV
+- **Object Detection** Pytorch, Python, OpenCV
 - **Other Libraries and Tools:** Ultralytics, EasyOCR, YOLO
 
 ## Contribution
@@ -39,7 +39,7 @@ git clone https://github.com/Rishit605/license-plate-detection-with-ocr.git
 cd license-plate-detection-with-ocr
 ```
 
-#### 2. Install the Required packages and dpendencies.
+#### 2. Install the Required packages and dependencies.
 
 Make sure you install the Required packages and dependencies using:
 
@@ -49,7 +49,7 @@ pip install -r requirements.txt
 
 #### 3. Call the app.py and Run.
 
-Open up your terminal nad type this command to run the application in local host:
+Open up your terminal and type this command to run the application in the local host:
 
 ```
 python app.py
