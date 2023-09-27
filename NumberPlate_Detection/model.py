@@ -27,6 +27,3 @@ def predict(images):
         cls_box = boxes.cpu().xywhn  # box with xywh format, (N, 4)
         cls_box = np.array(cls_box)
         return "Object(s) Detected, Results Saved in the *Output* folder"
-    # return img
-
-# print(load_image("C:\\Users\\pc\\Downloads\\istockphoto-1375640774-2048x2048.jpg"))
